@@ -281,6 +281,7 @@ footer {
                                            max-height: 360px;
                                            position: relative;
                                            right: 5%;
+                                           bottom: 8%;
                                                        
                                           }
                                         }
@@ -291,11 +292,23 @@ footer {
                                                max-width: 138px;
                                                max-height: 148px;
                                                position: relative;
+                                                            right: 2%;
                                                text-align: center;
-                                               float: right;
+                                               
                                                            
                                               }
                                             }
+
+
+                                            @media screen and (max-width: 720px) {
+                                                .backimg3 {
+                                                   z-index: 0;
+                                                   position: relative;        
+                                                 
+                                                               
+                                                  }
+                                                }
+    
 
 
 
