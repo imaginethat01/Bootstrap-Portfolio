@@ -1,0 +1,336 @@
+
+
+.header {
+    background-color: transparent;
+    margin: auto;
+    width: 2%;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.topnav {
+ 
+  overflow: hidden;
+    padding: 0;
+    background-color: #333;
+    width: auto;
+    border-style: outset;
+    border-width: 4px;
+    height: auto;
+    margin: auto;
+    border-radius: 15px 50px 30px;
+    position: relative;
+    max-width: 1080px;
+    min-width: 250px;
+    min-height: 75px;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: linen;
+    text-align: left;
+    font-style: bold;
+    font-size: 16px;
+    padding: 18px 10px;
+    text-decoration: burlywood;
+    height: auto;
+    border-radius: 15px 50px 30px;
+    font-family: 'Roboto Slab', serif;
+    padding-right: 2.5%;
+    
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: rgba(128, 125, 119, 0.856);
+    color: black;
+    transition-duration: 1s;
+}
+
+
+
+
+.row.content {height: 100%;
+                position: relative;
+                top: 20%;
+            }
+
+
+.sidenav {
+
+  background-color: transparent;
+  height: 100%;
+  position: relative;
+}
+
+footer {
+    float: center;
+   max-width: 1080px;
+    background-color:#333;
+    text-align: center; 
+    height: 7%;
+    border-style: outset;
+    border-width: 4px;
+    text-anchor: middle;
+    margin: auto;
+    border-radius: 15px 50px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 600px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content { height:auto;} 
+}
+
+
+.rcorners2 {
+    z-index: 1;
+    float: top;
+    text-align: center;
+    border-radius: 15px 50px 30px;
+    background: rgb(182, 173, 147);
+    padding: 12px; 
+    width: auto;
+    position: relative;
+                        
+    border-style: outset;
+    border-color: #333;
+    border-width: 6px;
+    margin: auto;
+    height: auto;
+    min-width: 255px;
+    min-height: 170px;
+    max-width: 255px;
+}
+
+
+
+    body, html {
+        background-color: transparent;
+        /* The image used */
+        background-image: url("images/gradient.png");
+        /* Full height */
+        height: 100%; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        overflow: auto;
+    }
+                   
+    .nametag { 
+      
+        background-color: transparent;
+        text-align: left;
+        height: auto;
+        width: auto;
+        max-width: 250px;
+        min-width: 250px;
+        float: center; 
+        position: relative; left: 3%;
+            
+    }
+
+
+
+    .box {
+        float: center;
+        margin: auto;
+        background-color: linen;
+        padding: 7px;
+        text-align: left;
+        border-style: outset;
+        border-width: 8px;
+        max-width: 550px;
+        max-height: 70%;
+        position: relative;          
+        border-radius:  50px 30px;
+        z-index: 2;
+        min-width: 290px;
+    }
+                                       
+    .backimg { z-index: 0;
+        position: relative;
+
+                    }
+                .backimg3 { z-index: 0;
+                    position: relative;
+                            right: 2%; }
+                    
+
+
+    .backimg4 { position: relative;
+                            right: 9%;
+        z-index: 0;
+        height: 267px;
+        width: 267px; 
+        float: left;}
+
+        .special { position: relative;     
+            left: 8%; }
+
+     
+            .rightup {float: right;
+                position: relative; top: 12%;
+                                        right: 5%; }
+
+        .container {position: relative; top: 7%;}
+        
+        .container-0 {position: relative; top: 3%;
+                                            left: 8%; }
+
+        .container-2 {position: relative; bottom: 25%;
+                                    left: 14%;}
+        
+        
+        .container-3 {position: relative; right: 12%;
+                    bottom: 82%;
+                     left: 49%; }
+
+        .container-4 { position: relative; bottom: 50%; }            
+                                 
+       
+        img {
+
+            padding: 2%; }
+        
+
+            h1  {text-align: left;
+                
+                padding-left: 2%;
+                font-family: 'Alex Brush', cursive; 
+                
+                font-size: 2.1em;
+                color: white;
+                text-shadow: 2px 1px rgb(133, 104, 12); }
+                
+                h2 {text-align: center;
+                    
+                    font-family: 'Roboto Slab', serif;
+                    font-size: 1.75em;
+                    color: white; 
+                    text-shadow: 2px 1px rgb(133, 104, 12); }
+    
+                h3 { 
+                        text-align: center;
+                        font-size: 1.2em;
+                        font-family: 'Roboto Slab', serif;
+                        color: black; 
+                        text-shadow: 1px 1px #333; 
+                }
+                        
+                        h4 { font-style: bold; 
+                                font-size: 1.7em; 
+                                    font-family: 'Open Sans', sans-serif; 
+                                        }
+    
+                                    p {
+                                    
+                                        text-align: lef;
+                                        font-style: bold;
+                                        font-size: 17px;
+                                        font-family: 'Open Sans', sans-serif; 
+                                        color: black; }
+    
+    
+                                        h5  {text-align: left;
+                                            padding-left: 2%;
+                                            font-family: Georgia;
+                                            font-size: 1.8em;
+                                            color: black; }
+    
+                                            p2 { 
+                                                text-align: center;
+                                                font-style: italic;
+                                                font-size: 18px;
+                                                font-family: 'Times New Roman', Times, serif; 
+                                                color: burlywood; }
+                                                
+         p3 { 
+              font-size: 15px;
+                font-style: italic;
+                font-family: 'Open Sans', sans-serif;  
+                color: black;
+                 text-align: center;
+                 padding: 2% 
+                             }
+                                                        
+                                                    
+                                                    
+                             h9  {text-align: left;
+                                    padding-left: 2%;
+                                    font-family: Georg;
+                                     font-size: 2em;
+                                     color: white; }
+       
+                                     @media screen and (max-width: 600px) {
+                                        .backimg {
+                                           z-index: 0;
+                                           max-width: 290px;
+                                           max-height: 360px;
+                                           position: relative;
+                                                       
+                                          }
+                                        }
+
+                                        @media screen and (max-width: 600px) {
+                                            .backimg4 {
+                                               z-index: 0;
+                                               max-width: 138px;
+                                               max-height: 148px;
+                                               position: relative;
+                                               text-align: center;
+                                               float: right;
+                                                           
+                                              }
+                                            }
+
+
+
+                                             /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    height: 65%;
+    width: 40%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    z-index: 1;
+    min-width: 240px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(182, 173, 147);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+
+          
+                                 
