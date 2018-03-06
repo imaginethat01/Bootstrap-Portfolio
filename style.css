@@ -187,17 +187,17 @@ footer {
         .container {position: relative; top: 7%;}
         
         .container-0 {position: relative; top: 3%;
-                                            left: 8%; }
+                                             }
 
         .container-2 {position: relative; bottom: 25%;
                                     left: 14%;}
         
         
-        .container-3 {position: relative; right: 12%;
-                    bottom: 82%;
+        .container-3 {position: relative; 
+                    bottom: 100%;
                      left: 49%; }
 
-        .container-4 { position: relative; bottom: 50%; }            
+        .container-4 { position: relative; bottom: 40%; }            
                                  
        
         img {
