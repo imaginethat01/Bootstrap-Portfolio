@@ -190,8 +190,8 @@ footer {
         .container-0 {position: relative; top: 3%;
                                              }
 
-        .container-2 {position: relative; bottom: 25%;
-                                    left: 11%;}
+        .container-2 {position: relative; bottom: 20%;
+                                    left: 8%;}
         
         
         .container-3 {position: relative; 
@@ -280,6 +280,7 @@ footer {
                                            max-width: 290px;
                                            max-height: 360px;
                                            position: relative;
+                                           right: 5%;
                                                        
                                           }
                                         }
