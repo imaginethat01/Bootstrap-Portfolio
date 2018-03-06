@@ -79,10 +79,11 @@ footer {
     border-radius: 15px 50px 30px;
     position: relative;
     z-index: 1;
+    min-height: 7%;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .sidenav {
     height: auto;
     padding: 15px;
@@ -125,7 +126,7 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
-        overflow: auto;
+        overflow: scroll;
     }
                    
     .nametag { 
@@ -190,14 +191,14 @@ footer {
                                              }
 
         .container-2 {position: relative; bottom: 25%;
-                                    left: 14%;}
+                                    left: 11%;}
         
         
         .container-3 {position: relative; 
                     bottom: 100%;
                      left: 49%; }
 
-        .container-4 { position: relative; bottom: 40%; }            
+        .container-4 { position: relative; bottom: 50%; }            
                                  
        
         img {
@@ -273,7 +274,7 @@ footer {
                                      font-size: 2em;
                                      color: white; }
        
-                                     @media screen and (max-width: 600px) {
+                                     @media screen and (max-width: 720px) {
                                         .backimg {
                                            z-index: 0;
                                            max-width: 290px;
@@ -283,7 +284,7 @@ footer {
                                           }
                                         }
 
-                                        @media screen and (max-width: 600px) {
+                                        @media screen and (max-width: 720px) {
                                             .backimg4 {
                                                z-index: 0;
                                                max-width: 138px;
