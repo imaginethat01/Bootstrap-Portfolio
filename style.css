@@ -68,7 +68,10 @@
 
 footer {
     float: center;
+    width: auto;
    max-width: 1080px;
+   width: 1060px;
+   min-width: 290px;
     background-color:#333;
     text-align: center; 
     height: 7%;
@@ -77,7 +80,6 @@ footer {
     text-anchor: middle;
     margin: auto;
     border-radius: 15px 50px 30px;
-    position: relative;
     z-index: 1;
     min-height: 7%;
 }
@@ -93,7 +95,7 @@ footer {
 
 
 .rcorners2 {
-    z-index: 1;
+    z-index: 2;
     float: top;
     text-align: center;
     border-radius: 15px 50px 30px;
@@ -126,7 +128,7 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
-        overflow: scroll;
+        overflow: auto;
     }
                    
     .nametag { 
@@ -162,17 +164,20 @@ footer {
                                        
     .backimg { z-index: 0;
         position: relative;
+                                 }
 
-                    }
-                .backimg3 { z-index: 0;
+
+                .backimg3 { z-index: 1;
                     position: relative;
-                            right: 2%; }
+                            right: 85%;
+                            bottom: 130%; }
                     
 
 
     .backimg4 { position: relative;
-                            right: 9%;
-        z-index: 0;
+                            bottom: 50%;
+                             
+        z-index: 2;
         height: 267px;
         width: 267px; 
         float: left;}
@@ -190,16 +195,14 @@ footer {
         .container-0 {position: relative; top: 3%;
                                              }
 
-        .container-2 {position: relative; bottom: 20%;
+        .container-2 {position: relative; bottom: 60%;
                                     left: 8%;}
         
         
-        .container-3 {position: relative; 
-                    bottom: 100%;
-                     left: 49%; }
-
-        .container-4 { position: relative; bottom: 50%; }            
-                                 
+       
+        .container-4 { position: sticky; bottom: 0%;
+                                        left: 17%;}            
+                                        
        
         img {
 
@@ -274,37 +277,27 @@ footer {
                                      font-size: 2em;
                                      color: white; }
        
-                                     @media screen and (max-width: 720px) {
+                                     @media screen and (max-width: 480px) {
                                         .backimg {
                                            z-index: 0;
-                                           max-width: 290px;
+                                           max-width: 360px;
                                            max-height: 360px;
                                            position: relative;
-                                           right: 5%;
-                                           bottom: 8%;
-                                                       
+                                           left: 5%;
+                                       
                                           }
                                         }
 
-                                        @media screen and (max-width: 720px) {
-                                            .backimg4 {
-                                               z-index: 0;
-                                               max-width: 138px;
-                                               max-height: 148px;
-                                               position: relative;
-                                                            right: 2%;
-                                               text-align: center;
-                                               
-                                                           
-                                              }
-                                            }
 
 
-                                            @media screen and (max-width: 720px) {
+                                        @media screen and (max-width: 480px) 
+                                     .backimg4 { float-top: 20%;
+                                                                        } }
+
+                                            @media screen and (max-width: 480px) {
                                                 .backimg3 {
                                                    z-index: 0;
-                                                   position: relative;        
-                                                 
+                                                    display: block; 
                                                                
                                                   }
                                                 }
