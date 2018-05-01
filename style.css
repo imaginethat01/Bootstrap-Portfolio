@@ -340,5 +340,8 @@ input[type=submit]:hover {
     overflow: auto;
 }
 
-          
-                                 
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
